@@ -5,19 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>noushaei</title>
+    <style>
+        .header{
+            color: blueviolet;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        #artOne{
+            background-color: cyan;
+            font-weight: bold;
+            opacity: .6;
+            text-align: center;
+        }
+        li,aside{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-<header>Hi here is my first page <nav>
+<header class="header">Hi here is my first page <nav>
     <ol>
-    <li>main page</li>
-    <li>all about me</li>
-    <li>study IT</li>
+    <li> <a href="#artOne">main page</a></li>
+    <li><a href="#artTwo">all about me</a></li>
+    <li><a href="#ulOne">study IT</a></li>
 </ol>
 </nav> </header>
 
 <section>
-    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, illum.</article>
-    <article>&copy; Lorem &lt; ipsum &amp; dolor sit&nbsp;amet&nbsp;consectetur.</article>
+    <article id="artOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, illum.</article>
+    <article id="artTwo">&copy; Lorem &lt; ipsum &amp; dolor sit&nbsp;amet&nbsp;consectetur.</article>
 </section>
 
 <aside>
@@ -25,7 +43,7 @@ here aside all text i want to notice u to newest version of my app.
 </aside>
 
 <footer>
-    <ul>
+    <ul id="ulOne">
         <li>more information</li>
         <li>address</li>
         <li>tele number</li>
