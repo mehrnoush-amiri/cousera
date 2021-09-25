@@ -18,3 +18,21 @@ section article:nth-child(even):hover{
     background-color: rgb(202, 86, 86);
     font-style: italic;
 }
+
+.divbar{
+    background-color: blue;
+    padding: 10px;
+    border: 4px solid yellowgreen;
+    margin: 20px;
+    width: 350px;
+    height: 500px;
+    box-sizing: content-box;
+    /* overflow: auto; */
+    background-image: url("./download.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#newDiv{
+    background-color: rgb(202, 86, 86);
+}
